@@ -61,6 +61,7 @@ header {
   min-height: 100vh;
   position: relative;
   flex-direction: column;
+  min-width: 100vw; 
 }
 .wrapper{
   width: 450px;
