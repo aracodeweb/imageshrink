@@ -29,7 +29,7 @@ header {
     padding: 1.5rem 4rem;
     width: 100vw;
     position: fixed;
-    
+    z-index: 100;
 }
 .logo {
     font-family: var(--caramel-font);
@@ -160,7 +160,23 @@ header {
   background: var(--main-color);
   text-transform: uppercase;
 }
-a {
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: var(--cloudy);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 6rem;
+}
+footer p {
+    padding: 0.6rem;
+}
+footer a {
     text-decoration: none;
+}
+footer a, footer i {
     color: var(--main-color);
-  } 
+}
